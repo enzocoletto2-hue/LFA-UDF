@@ -18,35 +18,35 @@
 
 
 
-* [🎯 Objetivos da Aula](#-objetivos-da-aula)
+* [🎯 Objetivos da Aula](#-objetivos-da-aula)✓
 
-* [1. Operadores Lógicos](#1-operadores-lógicos)
+* [1. Operadores Lógicos](#1-operadores-lógicos)✓
 
-* [2. Palavra Vazia — ε](#2-palavra-vazia--)
+* [2. Palavra Vazia — ε](#2-palavra-vazia--)✓
 
-* [3. Prefixos e Sufixos](#3-prefixos-e-sufixos)
+* [3. Prefixos e Sufixos](#3-prefixos-e-sufixos)✓
 
-* [4. Alfabeto — Σ](#4-alfabeto--)
+* [4. Alfabeto — Σ](#4-alfabeto--)✓
 
-* [5. Σ* — Todas as Cadeias Possíveis](#5---todas-as-cadeias-possíveis)
+* [5. Σ* — Todas as Cadeias Possíveis](#5---todas-as-cadeias-possíveis)✓
 
-* [6. Linguagem Formal — L](#6-linguagem-formal--l)
+* [6. Linguagem Formal — L](#6-linguagem-formal--l)✓
 
-* [7. Gramática Formal](#7-gramática-formal)
+* [7. Gramática Formal](#7-gramática-formal)✓
 
-* [8. Regras de Produção](#8-regras-de-produção)
+* [8. Regras de Produção](#8-regras-de-produção)✓
 
-* [9. Como Ler →](#9-como-ler-)
+* [9. Como Ler →](#9-como-ler-)✓
 
-* [10. Derivação de Palavras](#10-derivação-de-palavras)
+* [10. Derivação de Palavras](#10-derivação-de-palavras)✓
 
-* [11. Linguagem Gerada](#11-linguagem-gerada)
+* [11. Linguagem Gerada](#11-linguagem-gerada)✓
 
-* [12. Atividades Práticas](#12-atividades-práticas)
+* [12. Atividades Práticas](#12-atividades-práticas)✓
 
-* [13. Resumo para Prova](#13-resumo-para-prova)
+* [13. Resumo para Prova](#13-resumo-para-prova)✓
 
-* [14. Mapa Mental](#14-mapa-mental)
+* [14. Mapa Mental](#14-mapa-mental)✓
 
 
 
@@ -62,23 +62,23 @@ Ao final desta aula, devemos ser capazes de:
 
 
 
-* Entender o conceito de **alfabeto**;
+* Entender o conceito de **alfabeto**;✓
 
-* Identificar **cadeias/palavras**;
+* Identificar **cadeias/palavras**;✓
 
-* Compreender a **palavra vazia `ε`**;
+* Compreender a **palavra vazia `ε`**;✓
 
-* Identificar **prefixos e sufixos**;
+* Identificar **prefixos e sufixos**;✓
 
-* Entender o conceito de **linguagem formal**;
+* Entender o conceito de **linguagem formal**;✓
 
-* Interpretar a notação **`L ⊆ Σ*`**;
+* Interpretar a notação **`L ⊆ Σ*`**;✓
 
-* Compreender o funcionamento de uma **gramática formal**;
+* Compreender o funcionamento de uma **gramática formal**;✓
 
-* Interpretar **regras de produção**;
+* Interpretar **regras de produção**;✓
 
-* Gerar palavras a partir de uma gramática.
+* Gerar palavras a partir de uma gramática.✓
 
 
 
@@ -1884,35 +1884,35 @@ Antes de avançar para a próxima aula, verifique se você consegue explicar:
 
 
 
-* [ ] O que é um **alfabeto `Σ`**;
+* [ ] O que é um **alfabeto `Σ`**;✓
 
-* [ ] O que é uma **cadeia**;
+* [ ] O que é uma **cadeia**;✓
 
-* [ ] O que significa **`ε`**;
+* [ ] O que significa **`ε`**;✓
 
-* [ ] Por que **`|ε| = 0`**;
+* [ ] Por que **`|ε| = 0`**;✓
 
-* [ ] O que é um **prefixo**;
+* [ ] O que é um **prefixo**;✓
 
-* [ ] O que é um **sufixo**;
+* [ ] O que é um **sufixo**;✓
 
-* [ ] O que significa **`Σ*`**;
+* [ ] O que significa **`Σ*`**;✓
 
-* [ ] Se `Σ*` possui limite de tamanho;
+* [ ] Se `Σ*` possui limite de tamanho;✓
 
-* [ ] O que é uma **linguagem formal `L`**;
+* [ ] O que é uma **linguagem formal `L`**;✓
 
-* [ ] O que significa **`L ⊆ Σ*`**;
+* [ ] O que significa **`L ⊆ Σ*`**;✓
 
-* [ ] O que é uma **gramática formal**;
+* [ ] O que é uma **gramática formal**;✓
 
-* [ ] O que são **terminais e não terminais**;
+* [ ] O que são **terminais e não terminais**;✓
 
-* [ ] O que é uma **regra de produção**;
+* [ ] O que é uma **regra de produção**;✓
 
-* [ ] Como ler **`S → aS | ε`**;
+* [ ] Como ler **`S → aS | ε`**;✓
 
-* [ ] Como gerar palavras usando uma gramática.
+* [ ] Como gerar palavras usando uma gramática.✓
 
 
 
@@ -1924,15 +1924,15 @@ Antes de avançar para a próxima aula, verifique se você consegue explicar:
 
 
 
-> **Um alfabeto fornece os símbolos.
+> **Um alfabeto fornece os símbolos.✓
 
-> As cadeias são formadas com esses símbolos.
+> As cadeias são formadas com esses símbolos.✓
 
-> `Σ*` reúne todas as cadeias possíveis.
+> `Σ*` reúne todas as cadeias possíveis.✓
 
-> Uma linguagem seleciona algumas dessas cadeias.
+> Uma linguagem seleciona algumas dessas cadeias.✓
 
-> Uma gramática define regras para gerar as cadeias da linguagem.**
+> Uma gramática define regras para gerar as cadeias da linguagem.**✓
 
 
 

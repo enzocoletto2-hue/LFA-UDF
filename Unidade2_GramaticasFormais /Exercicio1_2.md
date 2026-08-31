@@ -1742,4 +1742,4 @@ Escreva a derivação completa de `aaaab`.
 
 Descreva, com suas palavras, o padrão das palavras geradas por essa gramática.
 
-> **Dica:** observe o que acontece quando aplicamos várias vezes $S\rightarrow aS$ e, finalmente, utilizamos $S\rightarrow b$.
+> **Dica:** observe o que acontece quando aplicamos várias vezes $S\rightarrow aS$ e, finalmente, utilizamos $S\rightarrow b$...

@@ -1,48 +1,45 @@
-Aula 02: Sumário, objetivos, conteúdo, exemplos, exercícios e revisão para prova.
-📚 Aula 1 — Linguagens Formais e Gramáticas
-Introdução aos principais conceitos de Linguagens Formais, Alfabetos, Cadeias, Linguagens e Gramáticas.
+# Aula 02: Sumário, objetivos, conteúdo, exemplos, exercícios e revisão para prova.
+
+## 📚 Aula 1 — Linguagens Formais e Gramáticas
+
+> Introdução aos principais conceitos de Linguagens Formais, Alfabetos, Cadeias, Linguagens e Gramáticas.
 
 📑 Sumário
-🎯 Objetivos da Aula
-1. Operadores Lógicos
-2. Palavra Vazia — ε
-3. Prefixos e Sufixos
-4. Alfabeto — Σ
-5. Σ* — Todas as Cadeias Possíveis
-6. Linguagem Formal — L
-7. Gramática Formal
-8. Regras de Produção
-9. Como Ler →
-10. Derivação de Palavras
-11. Linguagem Gerada
-12. Atividades Práticas
-13. Resumo para Prova
-14. Mapa Mental
-🎯 Objetivos da Aula
+
+## 🎯 Objetivos da Aula
+
 Ao final desta aula, devemos ser capazes de:
 
-Entender o conceito de alfabeto;
-Identificar cadeias/palavras;
-Compreender a palavra vazia ε;
-Identificar prefixos e sufixos;
-Entender o conceito de linguagem formal;
-Interpretar a notação L ⊆ Σ*;
-Compreender o funcionamento de uma gramática formal;
-Interpretar regras de produção;
-Gerar palavras a partir de uma gramática.
-1. Operadores Lógicos
+* Entender o conceito de **alfabeto**;
+* Identificar **cadeias/palavras**;
+* Compreender a **palavra vazia** `ε`;
+* Identificar **prefixos e sufixos**;
+* Entender o conceito de **linguagem formal**;
+* Interpretar a notação `L ⊆ Σ*`;
+* Compreender o funcionamento de uma **gramática formal**;
+* Interpretar **regras de produção**;
+* Gerar palavras a partir de uma gramática.
+
+
+## 1. Operadores Lógicos
+
 Os principais operadores estudados são:
 
-Símbolo	Nome	Leitura
-¬	Negação	não
-∧	E	e
-∨	OU	ou
-→	Implicação	implica / se... então
-Exemplo
+| Símbolo | Nome | Leitura |
+| :---: | :--- | :--- |
+| `¬` | Negação | não |
+| `∧` | E | e |
+| `∨` | OU | ou |
+| `→` | Implicação | implica / se... então |
+
+
+## Exemplo
 Considere:
 
 p = "Está chovendo."
 q = "Eu levo um guarda-chuva."
+
+
 Negação — ¬
 ¬p
 Lê-se:
@@ -208,7 +205,9 @@ Tamanho	Quantidade
 4	16
 5	32
 ...	...
-📌 Conclusão
+
+
+# 📌 Conclusão
 Σ* é infinito, mas cada cadeia individual possui tamanho finito.
 
 6. Linguagem Formal — L
@@ -506,53 +505,31 @@ Significa:
 
 S produz aS ou ε.
 
-14. 🧠 Mapa Mental
-                    LINGUAGENS FORMAIS
-                           │
-          ┌────────────────┼────────────────┐
-          │                │                │
-          ▼                ▼                ▼
-      ALFABETO           CADEIA          LINGUAGEM
-          │                │                │
-          │                │                └── L ⊆ Σ*
-          │                │
-          │                └── ε = cadeia vazia
-          │
-          └── Σ
-               │
-               └── Σ* = todas as cadeias
-                           │
-                           ▼
-                       GRAMÁTICA
-                           │
-                           ▼
-                    Regras de produção
-                           │
-                           ▼
-                      S → aS | ε
-                           │
-                           ▼
-                ε, a, aa, aaa, ...
-📌 Checklist da Aula 1
-Antes de avançar para a próxima aula, verifique se você consegue explicar:
 
- O que é um alfabeto Σ;
- O que é uma cadeia;
- O que significa ε;
- Por que |ε| = 0;
- O que é um prefixo;
- O que é um sufixo;
- O que significa Σ*;
- Se Σ* possui limite de tamanho;
- O que é uma linguagem formal L;
- O que significa L ⊆ Σ*;
- O que é uma gramática formal;
- O que são terminais e não terminais;
- O que é uma regra de produção;
- Como ler S → aS | ε;
- Como gerar palavras usando uma gramática.
-🚀 Conceito-chave
-Um alfabeto fornece os símbolos. As cadeias são formadas com esses símbolos. Σ* reúne todas as cadeias possíveis. Uma linguagem seleciona algumas dessas cadeias. Uma gramática define regras para gerar as cadeias da linguagem.
+# 14. 🧠 Mapa Mental
+
+
+```mermaid
+flowchart TD
+    LF[LINGUAGENS FORMAIS]
+    LF --> ALFABETO
+    LF --> CADEIA
+    LF --> LINGUAGEM
+
+    LINGUAGEM --- L1["L ⊆ Σ*"]
+    CADEIA --- C1["ε = cadeia vazia"]
+    
+    ALFABETO --- A1["Σ"]
+    A1 --- A2["Σ* = todas as cadeias"]
+    
+    A2 --> GRAMATICA[GRAMÁTICA]
+    GRAMATICA --> RP[Regras de produção]
+    RP --> PROD["S → aS | ε"]
+    PROD --> EX["ε, a, aa, aaa, ..."]
+```
+
+
+    
 
 📚 Aula 1 concluída
 Próximo passo: praticar a identificação de alfabetos, cadeias, prefixos, sufixos e a derivação de palavras por meio de gramáticas formais.

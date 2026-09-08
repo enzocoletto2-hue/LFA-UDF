@@ -599,6 +599,7 @@ Os resultados do JFLAP ficaram iguais aos resultados esperados. As palavras que 
 ---
 
 ## Exercício 13
+![Uploading jflap.png…]()
 
 ### Problema escolhido: acompanhamento de um pedido de entrega
 

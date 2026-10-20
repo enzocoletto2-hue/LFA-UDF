@@ -3,7 +3,7 @@
 Aula 20/10/2026 | Professora Kadidja Valéria | Inteligência Artificial
 
 **Disciplina:** Linguagens Formais e Autômatos | Ciência da Computação  
-**Estudante:** [Enzo Coletto Costa] | **Turma:** [N1]
+**Estudantes:** [Enzo Coletto Costa, Riandro Deian, Bianca Cristina e Davi Mendes Borges] | **Turma:** [N1]
 
 ---
 
